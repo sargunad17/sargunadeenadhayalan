@@ -1,11 +1,24 @@
-i=1
+i=10
 sum=0
-while(i<=10)
+for(n=1;n<=i;n++)
 {
-    if(i%2==0)
-    {
-        sum=sum+i
-        console.log(sum)
-    } 
-    i++
+ if(n%2==0)
+  { 
+    sum+=n;
+  }
 }
+ console.log(sum)
+ function even()
+ {
+    a=10
+    sum=0
+    for(n=1;n<=a;n++)
+    {
+        if(n%2==0)
+        {
+        sum+=n;
+        }
+    }
+    console.log(sum)
+}
+even()
