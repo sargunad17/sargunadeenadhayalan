@@ -1,21 +1,12 @@
 var a=10;
 var b=20;
-console.log(a+b)
-console.log(a*b)
-console.log(a>b)
-console.log(a<b)
-console.log(a==b)
-console.log(a/b)
-console.log(a&b)
-function add()
+console.log(`${a}+${b}=${a+b}`)
+var n=10;
+if(n%2==0)
 {
-    var a=10;
-    var b=20;
-    console.log(a+b)
+    console.log("even number")
 }
-add()
-function add(a,b)
+else
 {
-    console.log(a+b)
+    console.log("odd number")
 }
-add(10,40)
