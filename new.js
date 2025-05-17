@@ -8,6 +8,7 @@ for(n=1;n<=i;n++)
   }
 }
  console.log(sum)
+ 
  function even()
  {
     a=10
